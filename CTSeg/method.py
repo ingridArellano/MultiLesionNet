@@ -3,10 +3,6 @@
 
 import SimpleITK as sitk
 
-__author__  = ['Riccardo Biondi', 'Nico Curti']
-__email__   = ['riccardo.biondi4@studio.unibo.it', 'nico.curti2@unibo.it']
-
-
 bounding_values = {'uint8' : [0, 255],
                    'uint16': [0, 2**16],
                    'HU' : [0, 2**12]}
