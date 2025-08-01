@@ -8,10 +8,10 @@ import SimpleITK as sitk
 
 from time import time
 
-from CTLungSeg.utils import read_image, normalize
-from CTLungSeg.utils import write_volume
-from CTLungSeg.method import median_filter, std_filter, gauss_smooth
-from CTLungSeg.method import adaptive_histogram_equalization, adjust_gamma
+from CTSeg.utils import read_image, normalize
+from CTSeg.utils import write_volume
+from CTSeg.method import median_filter, std_filter, gauss_smooth
+from CTSeg.method import adaptive_histogram_equalization, adjust_gamma
 
 
 def parse_args():
