@@ -7,11 +7,6 @@ import SimpleITK as sitk
 import numpy as np
 
 
-__author__ = ['Riccardo Biondi', 'Nico Curti']
-__email__  = ['riccardo.biondi4@studio.unibo.it', 'nico.curti2@unibo.it']
-
-
-
 def load_pickle(filename):
     '''
     Load the pickle image file
